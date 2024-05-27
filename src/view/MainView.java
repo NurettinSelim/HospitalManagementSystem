@@ -26,7 +26,6 @@ public class MainView extends JFrame {
         tabbedPane.addTab("Patients", patientView);
         tabbedPane.addTab("Doctors", doctorView);
 
-        tabbedPane.setSelectedIndex(1); // testing purposes
         add(tabbedPane, BorderLayout.CENTER);
     }
 

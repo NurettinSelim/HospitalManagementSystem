@@ -1,6 +1,7 @@
 package controller;
 
 import model.Patient;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,9 +11,8 @@ public class PatientController {
 
     public PatientController() {
         patients = new ArrayList<>();
-        // test data
-        patients.add(new Patient(currentId++, "John", "Doe", 25, "123456789", "Male", "Cardiologist"));
-        patients.add(new Patient(currentId++, "Jane", "Doe", 30, "987654", "Female", "Dermatologist"));
+//        patients.add(new Patient(currentId++, "John", "Doe", 25, "123456789", "Male", "Cardiologist"));
+//        patients.add(new Patient(currentId++, "Jane", "Doe", 30, "987654", "Female", "Dermatologist"));
     }
 
     public List<Patient> getAllPatients() {
