@@ -19,7 +19,6 @@ public class Patient {
         this.doctorCategory = doctorCategory;
     }
 
-    // Getters and setters for new fields
     public int getId() {
         return id;
     }
