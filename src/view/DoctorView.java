@@ -1,7 +1,6 @@
 package view;
 
 import controller.DoctorController;
-import controller.PatientController;
 import model.Doctor;
 import model.Patient;
 
@@ -9,7 +8,6 @@ import javax.swing.*;
 import java.awt.*;
 
 public class DoctorView extends JPanel {
-
     private JTextArea patientDetailsArea;
     private JButton fetchPatientDetailsButton;
     private JButton prescriptionButton;

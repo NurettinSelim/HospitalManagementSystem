@@ -28,11 +28,4 @@ public class MainView extends JFrame {
 
         add(tabbedPane, BorderLayout.CENTER);
     }
-
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            MainView mainView = new MainView();
-            mainView.setVisible(true);
-        });
-    }
 }
