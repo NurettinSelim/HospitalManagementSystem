@@ -22,7 +22,7 @@ public class DoctorView extends JPanel {
     public DoctorView(DoctorController doctorController) {
         Doctor doctor = doctorController.getDoctor();
 
-        setLayout(new GridLayout(3, 3));
+        setLayout(new GridLayout(3, 3, 4, 4));
 
         patientDetailsArea = new JTextArea();
         patientDetailsArea.setEditable(false);
