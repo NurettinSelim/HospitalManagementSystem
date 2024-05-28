@@ -69,13 +69,13 @@ public class PatientView extends JPanel {
         submitButton.addActionListener(e -> {
             String name = nameField.getText();
             String surname = surnameField.getText();
+            int age;
             try {
-                Integer.parseInt(ageField.getText());
+                age = Integer.parseInt(ageField.getText());
             } catch (NumberFormatException ex) {
                 JOptionPane.showMessageDialog(null, "Age must be a number");
                 return;
             }
-            int age = Integer.parseInt(ageField.getText());
             String contactInfo = contactInfoField.getText();
             String gender = genderField.getText();
             String doctorCategory = doctorCategoryField.getText();
@@ -115,13 +115,13 @@ public class PatientView extends JPanel {
 
             String name = nameField.getText();
             String surname = surnameField.getText();
+            int age;
             try {
-                Integer.parseInt(ageField.getText());
+                age = Integer.parseInt(ageField.getText());
             } catch (NumberFormatException ex) {
                 JOptionPane.showMessageDialog(null, "Age must be a number");
                 return;
             }
-            int age = Integer.parseInt(ageField.getText());
             String contactInfo = contactInfoField.getText();
             String gender = genderField.getText();
             String doctorCategory = doctorCategoryField.getText();
